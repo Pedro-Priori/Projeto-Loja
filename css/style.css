@@ -6,13 +6,18 @@ body {
 }
 
 .container {
-/*	background: brown;*/
-	max-width: 1152px;
+	max-width: 1150px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
-
+section.container {
+		
+		margin:0 100px;
+		display: flex;
+		
+	}
+	
 header {
 	background-color: #1b1b1d;
 	padding: 10px 0;
@@ -89,4 +94,20 @@ li.emLinha:hover ul.oculto {
 	transform: translateY(0);
 	opacity: 1;
 	transition: transform 0.3s, opacity 0.2s;
+}
+
+.divPincipal{
+	width: 350px ;
+	height: 700px;
+	margin-left: 30px;
+	
+}
+.divPincipal:first-child{
+	margin: 0;
+}
+
+.imgIndex{
+	width: 350px ;
+	height: 300px;
+	margin: 30px 30px 0 0 ;
 }
