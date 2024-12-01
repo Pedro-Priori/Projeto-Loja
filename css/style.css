@@ -100,14 +100,8 @@ li.emLinha:hover ul.oculto {
 	width: 350px ;
 	height: 700px;
 	margin-left: 30px;
-	
+	display: flex !important;	
 }
 .divPincipal:first-child{
 	margin: 0;
-}
-
-.imgIndex{
-	width: 350px ;
-	height: 300px;
-	margin: 30px 30px 0 0 ;
 }
