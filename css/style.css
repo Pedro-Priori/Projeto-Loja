@@ -11,12 +11,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-section.container {
-		
-		margin:0 100px;
-		display: flex;
-		
-	}
+
 	
 header {
 	background-color: #1b1b1d;
@@ -50,7 +45,7 @@ li.emLinha a {
 }
 
 li.emLinha a:hover {
-	color: cyan;
+	color:  #fc0000a2;
 	transition: color 0.3s;
 }
 
@@ -70,8 +65,7 @@ li.emLinha:hover a span {
 ul.oculto {
 	visibility: hidden;
 	position: absolute;
-	background: rgb(255, 233, 215);
-	border: solid 1px #424242;
+	background: #42424200;
 	border-radius: 5px;
 	list-style: none;
 	padding: 5px 10px;
@@ -96,16 +90,28 @@ li.emLinha:hover ul.oculto {
 	transition: transform 0.3s, opacity 0.2s;
 }
 
-div.divPincipal{
+/*      main          */
+main{
+	display: flex;
+}
+section.container {
+	width: 700px;
+    	
+	margin:0 100px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.divPincipal{
 	width: 350px ;
 	height: 700px;
-	margin-left: 40px;
-	display: flex !important;
-	flex-direction: column;
+	margin-left: 1000px;
+	display: flex;
 }
 .divPincipal:first-child{
 	margin: 0;
 }
+
 
 img{
 	width: 350px ;
