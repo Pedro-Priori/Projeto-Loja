@@ -96,12 +96,19 @@ li.emLinha:hover ul.oculto {
 	transition: transform 0.3s, opacity 0.2s;
 }
 
-.divPincipal{
+div.divPincipal{
 	width: 350px ;
 	height: 700px;
-	margin-left: 30px;
-	display: flex !important;	
+	margin-left: 40px;
+	display: flex !important;
+	flex-direction: column;
 }
 .divPincipal:first-child{
 	margin: 0;
+}
+
+img{
+	width: 350px ;
+	height: 300px;
+	margin: 30px 30px 30px 0 ;
 }
