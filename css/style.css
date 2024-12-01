@@ -118,3 +118,10 @@ img{
 	height: 300px;
 	margin: 30px 30px 30px 0 ;
 }
+.conteiner img {
+    width: 100px;   
+    height: auto;   
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+
