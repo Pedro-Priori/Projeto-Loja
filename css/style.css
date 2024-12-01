@@ -105,3 +105,11 @@ li.emLinha:hover ul.oculto {
 .divPincipal:first-child{
 	margin: 0;
 }
+
+.conteiner img {
+    width: 100px;   
+    height: auto;   
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+
