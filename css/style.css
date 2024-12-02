@@ -152,8 +152,9 @@ footer{
 div{
 	display: flex;
 	justify-content: space-evenly;
+	text-align: justify;
 }
-.rede-sociais img {
+.redes-sociais img {
 	display: flex;
     margin: 0;
 	padding: 0;
