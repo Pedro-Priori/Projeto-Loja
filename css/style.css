@@ -102,26 +102,54 @@ section.container {
 	justify-content: space-evenly;
 }
 
-.divPincipal{
-	width: 350px ;
-	height: 700px;
-	margin-left: 1000px;
+.divPrincipal{
+	width: 300px ;
+	height: 550px;
+	border: #1b1b1d;
+	background-color: antiquewhite;
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 }
-.divPincipal:first-child{
+.divPrincipal:first-child{
 	margin: 0;
 }
 
-
-img{
-	width: 350px ;
-	height: 300px;
+.divPrincipal:last-child{
+	margin: 0 ;
+}
+.divPrincipal img{
+	width: 250px ;
+	height: 250px;
 	margin: 30px 30px 30px 0 ;
 }
-.conteiner img {
-    width: 100px;   
-    height: auto;   
-    margin-right: 10px; 
-    margin-bottom: 10px; 
+
+.divPrincipal p {
+	font-size: 12px;
 }
 
+
+/*      footer          */
+
+footer{
+	background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+div{
+	display: flex;
+	justify-content: space-evenly;
+}
+.rede-sociais img {
+	display: flex;
+    margin: 0;
+	padding: 0;
+	width: 300px;
+	height: 300px;
+}
