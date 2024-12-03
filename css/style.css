@@ -145,7 +145,7 @@ footer{
     justify-content: center;
     align-items: center;
     color:white;
-    padding: 10px;
+    padding: 45.5px;
     margin-top: 60px;
 }
 
@@ -155,14 +155,22 @@ section.rodape{
 
 }
 
+h4 {
+margin-right: 2.5%;
+font-size: 125%
+}
+
 div{
 	display: flex;
 	justify-content: space-evenly;
 	text-align: justify;
-	font-size: smaller;
+	font-size: 80%;
+	width: 800px;
+	
 }
-.redes-sociais img {
+.redes-sociais img{
 	display: flex;
-	width: 0px;
+	width: 10px;
 	height: 0px;
+
 }
