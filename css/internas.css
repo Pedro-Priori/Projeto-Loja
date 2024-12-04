@@ -12,7 +12,8 @@ body {
 	justify-content: space-between;
 }
 
-/*         Header             */	
+/*header universal*/
+
 header {
 	background-color: #1b1b1d;
 	padding: 10px 0;
@@ -96,78 +97,15 @@ li.emLinha:hover ul.oculto {
 	transition: transform 0.3s, opacity 0.2s;
 }
 
-
-/*      main          */
-
-main{
-	display: flex;
-}
-section.container {
-	width: 800px;  
-	margin:0 50px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.divPrincipal{
-	width: 300px ;
-	height: 550px;
-	border: #1b1b1d;
-	background-color: antiquewhite;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 0 0 3px;
-	padding: auto;
-	text-align: center;
-	
-
-}
-.divPrincipal:first-child{
-	margin: 0;
-}
-
-
-.divPrincipal img{
-	width: 250px ;
-	height: 250px;
-	margin: 20px ;
-}
-
-.divPrincipal p {
-	font-size: 12px;
-}
-
-
-
-/*      footer          */
-
-footer{
-	background-color: #1b1b1d;
+.container-internas{
+    max-width: 1152px;
+    margin: 0 auto;
     display: flex;
-	justify-content: space-between;
-    color:white;
-    padding: 45.5px;
-    margin-top: 60px;
+    flex-direction: column;
+    text-align: center;
 }
 
-
-
-h4 {
-margin-right: 2.5%;
-font-size: 125%
-}
-.rodape{
-	display: flex;
-	text-align: justify;
-	font-size: 20px;
-	width: 400px;
-	
-}
-.redes-sociais img{
-	display: flex;
-	width: 10px;
-	height: 0px;
-	margin-left: 100px ;
-
+img{
+    width: 35%;
+    height: auto;
 }
