@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-	max-width: 1150px;
+	max-width: 1152px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -99,32 +99,17 @@ li.emLinha:hover ul.oculto {
 
 /*      main          */
 
-main{
-	display: flex;
-}
-section.container {
-	width: 800px;  
-	margin:0 50px;
-	display: flex;
-	justify-content: space-between;
-}
-
 .divPrincipal{
 	width: 300px ;
 	height: 550px;
-	border: #1b1b1d;
-	background-color: antiquewhite;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0 0 0 3px;
+	margin: 0 auto;
 	padding: auto;
 	text-align: center;
-	
-
-}
-.divPrincipal:first-child{
-	margin: 0;
+	background-color: #1b1b1d2f;
+	border-radius: 10px;
 }
 
 
@@ -132,11 +117,35 @@ section.container {
 	width: 250px ;
 	height: 250px;
 	margin: 20px ;
+	border-radius: 10px;	
 }
 
 .divPrincipal p {
 	font-size: 12px;
 }
+
+
+
+.s2h3{
+    margin: 0 auto;
+	display: flex;
+}
+
+.ms2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+article {
+	width: 565px;
+	margin-right: 22px;
+	text-align: justify;
+}
+
+article:last-child {
+	margin-right: 0;
+}
+
 
 
 
@@ -149,6 +158,7 @@ footer{
     color:white;
     padding: 45.5px;
     margin-top: 60px;
+	
 }
 
 
@@ -159,15 +169,8 @@ font-size: 125%
 }
 .rodape{
 	display: flex;
-	text-align: justify;
-	font-size: 20px;
-	width: 400px;
-	
+	font-size: 16px;
+	width: max-content;
+	justify-content: flex-end;
 }
-.redes-sociais img{
-	display: flex;
-	width: 10px;
-	height: 0px;
-	margin-left: 100px ;
 
-}

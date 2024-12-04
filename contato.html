@@ -27,44 +27,52 @@
             <h1><a href="index.html">EAN_TEAM</a></h1>
 		</div>
 	</header>
-                    <h2>Deixe sua Feedback</h2>
+               <main>
+                   <section class="container">
 
-    <form action="/enviar" method="POST">
-        <label for="nome">Digite seu nome </label> 
-        <input type="text" id="nome" name="nome" required>
+                       <div class="formulario">
+                           <h2>Deixe sua Feedback</h2>
+                           
+                               <form action="/enviar" method="POST">
+                                   <label for="nome">Digite seu nome </label>
+                                   <input type="text" id="nome" name="nome" required>
+                           
+                                   <label for="email">Email</label>
+                                   <input type="email" id="email" name="email" required>
+                                   <br><br>
+                           
+                                   <label for="nome">Telefone</label>
+                                   <input type="number" name="telefone" id="telefone">
+                           
+                           
+                                   <label for="senha">Senha</label>
+                                   <input type="password" id="senha" name="senha" required>
+                                   <br><br>
+                           
+                           
+                                   <label for="comentario">Comentário:</label><br>
+                                   <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea>
+                                   <br><br>
+                           
+                                   <button type="submit">Enviar</button>
+                       </div>
+                   </section>
+               </main>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-        <br><br>
-
-        <label for="nome">Telefone</label>
-        <input type="number" name="telefone" id="telefone">
-
-
-        <label for="senha">Senha</label>
-        <input type="password" id="senha" name="senha" required>
-        <br><br>
-       
-
-        <label for="comentario">Comentário:</label><br>
-        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea>
-        <br><br>
-
-        <button type="submit">Enviar</button>
-
-
-        <div class="conteiner">
-            <div>
-                <h4>Direitos Autorais</h4>
-                <p>Este site e todo o seu conteúdo, incluindo, mas não se limitando a textos, imagens, gráficos, vídeos, áudios, software, logotipos, ícones, design e layout, são propriedade exclusiva de EAN_TEAM ou de seus respectivos detentores de direitos autorais. O uso não autorizado, a reprodução, distribuição, cópia ou modificação deste conteúdo sem a permissão expressa por escrito do proprietário é estritamente proibido e pode resultar em sanções legais. ©</p>
-            </div>
-
-            <div>
-            <img src="img/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp" alt="">
-            <img src="img/vecteezy_instagram-logo-png-instagram-icon-transparent_18930415.png" alt="">
-            <img src="img/vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930698.png" alt="">
-            <img src="img/vecteezy_twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the_27395710.png" alt="">
-        </div>
+        <footer>
+            <section class="conteiner">
+                <div class="rodape">
+                    <div>
+                        <h4>Direitos Autorais</h4>
+                        <p>Este site e todo o seu conteúdo, incluindo, mas não se limitando a textos, imagens, gráficos, vídeos, áudios, software, logotipos, ícones, design e layout, são propriedade exclusiva de EAN_TEAM ou de seus respectivos detentores de direitos autorais. O uso não autorizado, a reprodução, distribuição, cópia ou modificação deste conteúdo sem a permissão expressa por escrito do proprietário é estritamente proibido e pode resultar em sanções legais. ©</p>
+                    
+                        <img src="img/whatsapp (2).png" alt="">
+                        <img src="img/instagram.png" alt="">
+                        <img src="img/twitter.png" alt="">
+                        <img src="img/facebook.png" alt="">
+                    </div>  
+                </div>
+        </footer>
 
 </body>
 </html>
