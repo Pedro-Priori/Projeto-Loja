@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>EAN-TEAM</title>
 </head>
 <body>
     <header>
@@ -13,66 +14,70 @@
 				<ul class="principal">
 					<li class="emLinha"><a href="index.html">Home</a></li>
 					<li class="emLinha">
-						<a href="cursos.html">veja <span>▼</span></a>
+						<a href="">veja <span>▼</span></a>
 						<ul class="oculto">
-							<li><a href="ean.html">ean</a></li>
-							<li><a href="qqv.html">queqiavelhinho</a></li>
-							<li><a href="he.html">hehehe</a></li>
+							<li><a href="interna1.html">Futebol</a></li>
+							<li><a href="interna2.html">Basquete</a></li>
+							<li><a href="interna3.html">Vôlei</a></li>
+							<li><a href="interna4.html">Tênis</a></li>
 						</ul>
 					</li>
 					<li class="emLinha"><a href="sobre.html">Sobre</a></li>
 					<li class="emLinha"><a href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
-            <h1><a href="index.html">EAN_TEAM</a></h1>
+			<h1><a href="index.html">EAN TEAM</a></h1>	
 		</div>
 	</header>
-               <main>
-                   <section class="container">
 
-                       <div class="formulario">
-                           <h2>Deixe sua Feedback</h2>
-                           
-                               <form action="/enviar" method="POST">
-                                   <label for="nome">Digite seu nome </label>
-                                   <input type="text" id="nome" name="nome" required>
-                           
-                                   <label for="email">Email</label>
-                                   <input type="email" id="email" name="email" required>
-                                   <br><br>
-                           
-                                   <label for="nome">Telefone</label>
-                                   <input type="number" name="telefone" id="telefone">
-                           
-                           
-                                   <label for="senha">Senha</label>
-                                   <input type="password" id="senha" name="senha" required>
-                                   <br><br>
-                           
-                           
-                                   <label for="comentario">Comentário:</label><br>
-                                   <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea>
-                                   <br><br>
-                           
-                                   <button type="submit">Enviar</button>
-                       </div>
-                   </section>
-               </main>
-
-        <footer>
-            <section class="conteiner">
-                <div class="rodape">
-                    <div>
-                        <h4>Direitos Autorais</h4>
-                        <p>Este site e todo o seu conteúdo, incluindo, mas não se limitando a textos, imagens, gráficos, vídeos, áudios, software, logotipos, ícones, design e layout, são propriedade exclusiva de EAN_TEAM ou de seus respectivos detentores de direitos autorais. O uso não autorizado, a reprodução, distribuição, cópia ou modificação deste conteúdo sem a permissão expressa por escrito do proprietário é estritamente proibido e pode resultar em sanções legais. ©</p>
-                    
-                        <img height="55px" src="img/whatsapp (2).png" alt="">
-                        <img height="55px" src="img/instagram.png" alt="">
-                        <img height="55px" src="img/twitter.png" alt="">
-                        <img height="55px" src="img/facebook.png" alt="">
-                    </div>  
+    <main>
+        <section class="container"> 
+            <div class="caixa" >
+            
+                <div class="formulario">
+                    <h2>Deixe sua opinião sobre os esportes!</h2>
+                    <form action="/enviar" method="POST">
+            
+                        <div class="campo nome-telefone">
+                            <div class="campo-nome">
+                                <label for="nome">Digite seu nome:</label>
+                                <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                            </div>
+                            <div class="campo-telefone">
+                                <label for="telefone">Telefone:</label>
+                                <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX" pattern="^\(\d{2}\) \d{5}-\d{4}$">
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+                        </div>
+                        <div class="campo">
+                            <label for="comentario">Comentário:</label>
+                            <textarea id="comentario" name="comentario" rows="4" required placeholder="Deixe seu comentário"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
-        </footer>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+
+		<section class="container">
+			<div class = "rodape">
+                <h4>Direitos Autorais:</h4>
+                <p>Este site e todo o seu conteúdo, incluindo, mas não se limitando a textos, imagens, gráficos, vídeos, áudios, software, logotipos, ícones, design e layout, são propriedade exclusiva de EAN_TEAM ou de seus respectivos detentores de direitos autorais.
+				O uso não autorizado, a reprodução, distribuição, cópia ou modificação deste conteúdo sem a permissão expressa por escrito do proprietário é estritamente proibido e pode resultar em sanções legais. ©</p>
+				<img height="55px" src="img/whatsapp (2).png" alt="">
+				<img height="55px" src="img/instagram.png" alt="">
+				<img height="55px" src="img/twitter.png" alt="">
+				<img height="55px" src="img/facebook.png" alt="">
+			</div>
+		</section>
+
+	</footer>
 
 </body>
 </html>
