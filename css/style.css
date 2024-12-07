@@ -3,6 +3,8 @@
 body {
 	margin: 0;
 	font-family: 'arial';
+	background-color: rgba(0, 0, 0, 0.8); /* Preto com 50% de transparência */	
+	color: white;
 }
 
 .container {
@@ -100,29 +102,36 @@ li.emLinha:hover ul.oculto {
 /*      main          */
 
 .divPrincipal{
-	width: 300px ;
-	height: 550px;
+	width: 420px ;
+	height: 570px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 50px 10px;
-	padding: auto;
 	text-align: center;
-	background-color: #1b1b1d2f;
+	background-color: #1b1b1d;
+	border: gold solid 2px;
 	border-radius: 10px;
+
+	& img{
+		width: 200px ;
+		height: 200px;
+		margin-top: 20px;
+		border-radius: 10px;	
+	}
+
+	& h3{
+
+		font-size: 18px;
+	}
+
+	& p {
+		margin:5px 10px;
+		font-size: 14px;
+	}
+
 }
 
-
-.divPrincipal img{
-	width: 200px ;
-	height: 200px;
-	margin-top: 20px;
-	border-radius: 10px;	
-}
-
-.divPrincipal p {
-	font-size: 15px;
-}
 
 .s2h3{
     margin: 0 auto;
@@ -132,17 +141,122 @@ li.emLinha:hover ul.oculto {
 .ms2 {
 	margin-top: 20px;
 	margin-bottom: 20px;
+
+	& h3 {
+		font-size: 30px;
+	}
 }
 
 article {
 	width: 565px;
 	margin-right: 22px;
 	text-align: justify;
+	font-size: 16px;
+
+	& h4 {
+		font-size: 24px;
+        margin-bottom: 10px;
+    }
 }
 
 article:last-child {
-	margin-right: 0;
+	margin-right: 0; 
 }
+
+.AcessoriosESPortivos {
+	margin-left: 300px;
+	align-items: center;
+	text-align:justify;
+	
+	& h4 {
+		text-align: center;
+	}
+}
+
+/*      contato        */
+
+.formulario h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.caixa{
+    width: 100%;
+    max-width: 550px;          
+    margin:40px auto;
+    padding: 35px 0;            
+    background-color: rgba(0, 0, 0, 0.262); 
+    border-radius: 15px;        
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.932); 
+    border: 2px solid white;    /* Adiciona a borda branca de 2px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #eaeaea;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #0040ff;
+}
+
+
+.nome-telefone {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.campo-nome, .campo-telefone {
+    width: 48%;
+    margin-right: 4%;
+}
+
+.campo-nome input, .campo-telefone input {
+    width: 100%;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: rgba(0, 21, 255, 0.717);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: gold;
+	color: black;
+}
+
 
 
 
@@ -170,10 +284,14 @@ font-size: 125%
 	font-size: 16px;
 	width: max-content;
 	justify-content: flex-end;
+
+	& img{
+		width: 40px;
+		height: 40px;
+		margin : 10px;
+	}
+
 }
 
-.rodape img {
-	margin: 10px;
-}
 
 
